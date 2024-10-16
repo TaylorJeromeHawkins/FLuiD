@@ -11,7 +11,7 @@ import java.io.IOException;
 public class FLuiD extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(FLuiD.class.getResource("mainFLuiD.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(FLuiD.class.getResource("FLuiD.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 950, 350);
         Image image = new Image(String.valueOf(FLuiD.class.getResource("/Images/DB.png")));
         stage.setTitle("FLuiD");
