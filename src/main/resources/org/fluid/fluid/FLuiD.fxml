@@ -10,18 +10,15 @@
             <menus>
                 <Menu mnemonicParsing="false" text="File">
                     <items>
-                        <MenuItem mnemonicParsing="false" text="New"/>
-                        <MenuItem mnemonicParsing="false" text="Open…"/>
-                        <Menu mnemonicParsing="false" text="Open Recent"/>
+                        <MenuItem mnemonicParsing="false" text="New" onAction="#onFileNew"/>
+                        <MenuItem mnemonicParsing="false" text="Open" onAction="#onFileOpen"/>
                         <SeparatorMenuItem mnemonicParsing="false"/>
-                        <MenuItem mnemonicParsing="false" text="Close"/>
-                        <MenuItem mnemonicParsing="false" text="Save"/>
-                        <MenuItem mnemonicParsing="false" text="Save As…"/>
-                        <MenuItem mnemonicParsing="false" text="Revert"/>
+                        <MenuItem mnemonicParsing="false" text="Save" onAction="#onFileSave"/>
+                        <MenuItem mnemonicParsing="false" text="Save As" onAction="#onFileSaveAs"/>
                         <SeparatorMenuItem mnemonicParsing="false"/>
-                        <MenuItem mnemonicParsing="false" text="Preferences…"/>
+                        <MenuItem mnemonicParsing="false" text="Preferences" onAction="#onPreferences"/>
                         <SeparatorMenuItem mnemonicParsing="false"/>
-                        <MenuItem mnemonicParsing="false" text="Quit"/>
+                        <MenuItem mnemonicParsing="false" text="Quit" onAction="#onFileQuit"/>
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">

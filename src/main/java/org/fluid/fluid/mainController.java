@@ -99,4 +99,29 @@ public class mainController {
             }
         }
     }
+
+//MenuBar Functions
+    public void onFileNew() {
+        menuBarController.openFileNew();
+    }
+
+    public void onFileOpen() {
+        menuBarController.openFile();
+    }
+
+    public void onFileSave() {
+        menuBarController.saveFile();
+    }
+
+    public void onFileSaveAs() {
+        menuBarController.saveFileAs();
+    }
+
+    public void onFileQuit() {
+        menuBarController.quitFile();
+    }
+
+    public void onPreferences() {
+        menuBarController.showPreferences();
+    }
 }
