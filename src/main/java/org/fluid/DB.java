@@ -1,4 +1,4 @@
-package org.fluid.fluid;
+package org.fluid;
 
 import java.sql.*;
 
@@ -36,16 +36,16 @@ public class DB {
                 ResultSetMetaData metaData = rs.getMetaData();
 
                 int columnCount = metaData.getColumnCount();
-                int rowNumber = 1; // row counter
+                // int rowNumber = 1; // row counter
 
                 // Loop through the ResultSet and append the results
                 while (rs.next()) {
-                    result.append(rowNumber).append("  ");
+                    // result.append(rowNumber).append(" ");
                     for (int i = 1; i <= columnCount; i++) {
                         result.append(rs.getString(i)).append("\t");
                     }
                     result.append("\n");
-                    rowNumber++;
+                    // rowNumber++;
                 }
             } else if (upperCaseQuery.startsWith("USE")) {
                 // For the USE command, executeUpdate is needed to change the database

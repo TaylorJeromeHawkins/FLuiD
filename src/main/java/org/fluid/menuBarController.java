@@ -1,4 +1,4 @@
-package org.fluid.fluid;
+package org.fluid;
 
 import javafx.application.Platform;
 
@@ -20,7 +20,7 @@ public class menuBarController {
     }
 
     public static void saveFileAs() {
-        //Save a file
+        //Save a file As
         System.out.println("saveFileAs");
     }
 
