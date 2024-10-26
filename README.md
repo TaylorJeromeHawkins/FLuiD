@@ -1,0 +1,1 @@
+FLuiD is an intuitive database management software designed for users who prefer a point-and-click interface for interacting with databases. Built using JavaFX, FLuiD simplifies complex SQL operations into user-friendly actions, enabling even those with minimal programming knowledge to manage their databases efficiently.
