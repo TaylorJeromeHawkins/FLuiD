@@ -27,7 +27,7 @@ public class useComboBoxController {
         if (selectedDB != null) {
             mainCtrl.getQueryText().setText("USE " + selectedDB + ";");
         } else {
-            mainCtrl.getQueryText().setText("Select a databse first!");
+            mainCtrl.getQueryText().setText("Select a database first!");
         }
         mainCtrl.doQuery();
         closePopup();

@@ -185,7 +185,6 @@ public class mainController {
         } catch (IOException e) {
             //e.printStackTrace();
         }
-
     }
 
     // Methods to fill combo box information

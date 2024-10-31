@@ -36,7 +36,7 @@ public class selectComboBoxController {
                 mainCtrl.getQueryText().setText("SELECT * FROM " + selectedTable + ";");
             } else {
                 // Condition is selected, include it in the query
-                mainCtrl.getQueryText().setText("SELECT * FROM " + selectedTable + " " + selectedCondition + ";");
+                mainCtrl.getQueryText().setText("SELECT * FROM " + selectedTable + " " + selectedCondition + " 'condition';");
             }
             mainCtrl.doQuery();
             closePopup();
